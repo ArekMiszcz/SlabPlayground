@@ -26,7 +26,7 @@ function love.load(args)
 end
 
 function love.update(dt)
-	Slab.Update(dt)
+  Slab.Update(dt)
   draw_list_box()
 end
 
